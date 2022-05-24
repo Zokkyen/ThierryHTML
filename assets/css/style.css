@@ -61,32 +61,11 @@ body {
     height: 140px;
 }
 
-#canvas {
+canvas {
     position: absolute;
-    display: block;
-    image-rendering: pixelated;
-}
-
-#thierrySolitaire {
-    position: absolute;
-    display: block;
+    left: 0;
     top: 0;
-    left: 50%;
-    width: 140px;
-    height: 140px; 
-    margin-left: -70px;   
-}
-
-#info {
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    font-family: monospace;
-    text-align: center;
-}
-
-#canvas {
-    position: absolute;
-    display: block;
-    image-rendering: pixelated;
-}
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1a;
+  }
